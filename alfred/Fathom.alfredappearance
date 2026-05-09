@@ -1,5 +1,9 @@
 {
   "alfredtheme" : {
+    "name" : "Fathom",
+    "author" : "zalary",
+    "authorURL" : "https://github.com/zalary/fathom",
+    "description" : "A dark, muted, low-contrast theme for the deep.",
     "result" : {
       "backgroundSelected" : "rgba(77,83,85,0.50)",
       "iconPaddingHorizontal" : 8,
