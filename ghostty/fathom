@@ -1,0 +1,20 @@
+background = #323D44
+foreground = #c0c0c0
+cursor-color = #c1c1c1
+
+palette = 0=#4D5355
+palette = 1=#949B79
+palette = 2=#88908E
+palette = 3=#99926B
+palette = 4=#7A8280
+palette = 5=#999999
+palette = 6=#AAAAAA
+palette = 7=#C0C0C0
+palette = 8=#4D5355
+palette = 9=#949B79
+palette = 10=#494D55
+palette = 11=#99926B
+palette = 12=#79807F
+palette = 13=#999999
+palette = 14=#AAAAAA
+palette = 15=#C1C1C1
