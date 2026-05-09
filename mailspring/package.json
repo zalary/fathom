@@ -1,0 +1,12 @@
+{
+  "name": "fathom",
+  "title": "Fathom",
+  "displayName": "Fathom",
+  "theme": "ui",
+  "version": "1.0.0",
+  "description": "A dark, muted, low-contrast theme for the deep.",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  }
+}

@@ -62,6 +62,18 @@ source path/to/fathom/bullet-train/fathom.zsh
 
 ---
 
+## Mailspring
+
+_Requires [Mailspring](https://getmailspring.com/)._
+
+### Install
+
+1. Clone or download this repo
+2. Open Mailspring → **Preferences** → **Appearance** → **Theme** → **Install a theme manually...**
+3. Select the `mailspring/` folder
+
+---
+
 ## Slack
 
 ### Install
