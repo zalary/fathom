@@ -1,0 +1,7 @@
+# Fathom — Slack Sidebar Theme
+#
+# Paste the line below into Slack > Preferences > Themes > Custom Theme
+#
+# Column BG, Menu BG Hover, Active Item, Active Item Text, Hover Item, Text Color, Active Presence, Mention Badge
+
+#323D44,#3A454D,#4D5355,#C0C0C0,#3A454D,#AAAAAA,#88908E,#949B79

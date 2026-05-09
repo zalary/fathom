@@ -62,6 +62,31 @@ source path/to/fathom/bullet-train/fathom.zsh
 
 ---
 
+## Slack
+
+### Install
+
+1. Open Slack → **Preferences** → **Themes**
+2. Scroll to the bottom and click **"Custom Theme"**
+3. Paste this string:
+
+```
+#323D44,#3A454D,#4D5355,#C0C0C0,#3A454D,#AAAAAA,#88908E,#949B79
+```
+
+| Slot               | Color     | &nbsp; |
+|--------------------|-----------|--------|
+| Sidebar BG         | `#323D44` | ![](https://placehold.co/20x20/323D44/323D44.png) |
+| Menu BG Hover      | `#3A454D` | ![](https://placehold.co/20x20/3A454D/3A454D.png) |
+| Active Item        | `#4D5355` | ![](https://placehold.co/20x20/4D5355/4D5355.png) |
+| Active Item Text   | `#C0C0C0` | ![](https://placehold.co/20x20/C0C0C0/C0C0C0.png) |
+| Hover Item         | `#3A454D` | ![](https://placehold.co/20x20/3A454D/3A454D.png) |
+| Text               | `#AAAAAA` | ![](https://placehold.co/20x20/AAAAAA/AAAAAA.png) |
+| Active Presence    | `#88908E` | ![](https://placehold.co/20x20/88908E/88908E.png) |
+| Mention Badge      | `#949B79` | ![](https://placehold.co/20x20/949B79/949B79.png) |
+
+---
+
 ## Alfred
 
 _Requires [Alfred](https://alfredapp.com)._
