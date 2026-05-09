@@ -2,10 +2,11 @@
 
 # Fathom
 
-A dark, muted, low-contrast color theme for the deep. Calm. Focused. No eye strain.
+Fathom is a dark, low-contrast color theme built around one idea: distinction without distraction. Desaturated blue-greens, muted olives, and silver give you enough visual structure to navigate your work — without the jarring accent colors that pull focus away from it.
 
-_Inspired by the deep ocean — desaturated blue-greens, silver, muted olive._  
-_Named after the unit of ocean depth (1 fathom = 6 feet)._
+Sophisticated and intentional, but not prescriptive. No iconic palette to recognize, no aesthetic to perform. Just a calm environment that gets out of your way.
+
+_Made for lovers of the deep — work, ocean, or soul._
 
 </div>
 
