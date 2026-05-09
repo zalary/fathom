@@ -1,37 +1,65 @@
 {
   "alfredtheme" : {
-    "name" : "Fathom",
-    "author" : "zalary",
-    "authorURL" : "https://github.com/zalary/fathom",
-    "description" : "A dark, muted, low-contrast theme for the deep.",
     "result" : {
-      "backgroundSelected" : "rgba(77,83,85,0.50)",
-      "iconPaddingHorizontal" : 8,
-      "iconSize" : 36,
-      "shortcutColor" : "rgba(122,130,128,0.70)",
-      "shortcutSelectedColor" : "rgba(192,192,192,0.80)",
-      "subTextColor" : "rgba(170,170,170,0.60)",
-      "subTextSelectedColor" : "rgba(192,192,192,0.80)",
-      "textColor" : "rgba(192,192,192,0.90)",
-      "textSelectedColor" : "rgba(192,192,192,1.00)"
+      "textSpacing" : 6,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#C0C0C0FF",
+        "font" : "Helvetica Neue Light",
+        "color" : "#AAAAAAFF"
+      },
+      "shortcut" : {
+        "size" : 14,
+        "colorSelected" : "#99926BFF",
+        "font" : "Helvetica Neue Light",
+        "color" : "#7A8280FF"
+      },
+      "backgroundSelected" : "#4D53557F",
+      "text" : {
+        "size" : 18,
+        "colorSelected" : "#C0C0C0FF",
+        "font" : "Helvetica Neue Light",
+        "color" : "#C0C0C0FF"
+      },
+      "iconPaddingHorizontal" : 6,
+      "roundness" : 0,
+      "paddingVertical" : 5,
+      "iconSize" : 36
     },
     "search" : {
-      "background" : "rgba(50,61,68,1.00)",
-      "backgroundImage" : 0,
-      "borderColor" : "rgba(77,83,85,1.00)",
-      "borderPadding" : 5,
-      "cornerRadius" : 10,
-      "dropShadow" : 1,
-      "horizontalPadding" : 12,
-      "paddingTop" : 12,
-      "placeholderColor" : "rgba(170,170,170,0.35)",
-      "resultRowSize" : "large",
-      "scrollbarColor" : "rgba(192,192,192,0.15)",
-      "scrollbarWidth" : 0,
-      "separatorColor" : "rgba(77,83,85,0.40)",
-      "textColor" : "rgba(192,192,192,0.90)",
-      "widthPercent" : 100
+      "backgroundSelected" : "#4D5355FF",
+      "paddingHorizontal" : 8,
+      "spacing" : 10,
+      "text" : {
+        "size" : 22,
+        "colorSelected" : "#C0C0C0FF",
+        "font" : "Helvetica Neue Light",
+        "color" : "#C0C0C0FF"
+      },
+      "background" : "#323D44FF",
+      "roundness" : 0,
+      "paddingVertical" : 9
     },
-    "version" : 1
+    "window" : {
+      "color" : "#323D44FF",
+      "paddingHorizontal" : 10,
+      "width" : 560,
+      "borderPadding" : 0,
+      "borderColor" : "#4D535500",
+      "blur" : 0,
+      "roundness" : 7,
+      "paddingVertical" : 10
+    },
+    "credit" : "zalary",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#4D535100",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#7A8280FF",
+      "thickness" : 2
+    },
+    "name" : "Fathom"
   }
 }
