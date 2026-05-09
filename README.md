@@ -62,6 +62,16 @@ source path/to/fathom/bullet-train/fathom.zsh
 
 ---
 
+## Alfred
+
+_Requires [Alfred](https://alfredapp.com)._
+
+### Install
+
+Double-click [`alfred/Fathom.alfredappearance`](alfred/Fathom.alfredappearance).
+
+---
+
 ## Credits
 
 Theme by [@zalary](https://github.com/zalary).  

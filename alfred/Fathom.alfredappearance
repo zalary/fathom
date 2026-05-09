@@ -1,0 +1,33 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "backgroundSelected" : "rgba(77,83,85,0.50)",
+      "iconPaddingHorizontal" : 8,
+      "iconSize" : 36,
+      "shortcutColor" : "rgba(122,130,128,0.70)",
+      "shortcutSelectedColor" : "rgba(192,192,192,0.80)",
+      "subTextColor" : "rgba(170,170,170,0.60)",
+      "subTextSelectedColor" : "rgba(192,192,192,0.80)",
+      "textColor" : "rgba(192,192,192,0.90)",
+      "textSelectedColor" : "rgba(192,192,192,1.00)"
+    },
+    "search" : {
+      "background" : "rgba(50,61,68,1.00)",
+      "backgroundImage" : 0,
+      "borderColor" : "rgba(77,83,85,1.00)",
+      "borderPadding" : 5,
+      "cornerRadius" : 10,
+      "dropShadow" : 1,
+      "horizontalPadding" : 12,
+      "paddingTop" : 12,
+      "placeholderColor" : "rgba(170,170,170,0.35)",
+      "resultRowSize" : "large",
+      "scrollbarColor" : "rgba(192,192,192,0.15)",
+      "scrollbarWidth" : 0,
+      "separatorColor" : "rgba(77,83,85,0.40)",
+      "textColor" : "rgba(192,192,192,0.90)",
+      "widthPercent" : 100
+    },
+    "version" : 1
+  }
+}
