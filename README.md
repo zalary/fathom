@@ -30,6 +30,39 @@ _Made for lovers of the deep — work, ocean, or soul._
 
 ---
 
+## Neovim
+
+_Requires Neovim 0.8+ with `termguicolors`._
+
+### Install
+
+**Manual:**
+
+```sh
+mkdir -p ~/.config/nvim/colors
+cp neovim/colors/fathom.lua ~/.config/nvim/colors/
+```
+
+Then in your `init.lua`:
+
+```lua
+vim.cmd('colorscheme fathom')
+```
+
+**Via [lazy.nvim](https://github.com/folke/lazy.nvim):**
+
+```lua
+{
+  dir = '~/path/to/fathom/neovim',
+  name = 'fathom',
+  config = function()
+    vim.cmd('colorscheme fathom')
+  end,
+}
+```
+
+---
+
 ## Ghostty
 
 _Requires [Ghostty](https://ghostty.org/)._
