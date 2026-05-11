@@ -133,6 +133,32 @@ _Requires [Mailspring](https://getmailspring.com/)._
 
 ---
 
+## Obsidian
+
+_Requires the [Minimal](https://github.com/kepano/obsidian-minimal) theme._
+
+### Install
+
+1. Install **Minimal** in Obsidian → **Settings → Appearance → Themes**
+2. Copy [`obsidian/fathom.css`](obsidian/fathom.css) into your vault's `.obsidian/snippets/` folder
+3. Enable it in **Settings → Appearance → CSS snippets**
+
+The snippet covers backgrounds, sidebar, text hierarchy, links, tags, code blocks, callouts, tables, graph view, and syntax highlighting — all using the Fathom palette.
+
+| Role              | Color     | &nbsp; |
+|-------------------|-----------|--------|
+| Background        | `#323D44` | ![](https://placehold.co/20x20/323D44/323D44.png) |
+| Sidebar BG        | `#2C3740` | ![](https://placehold.co/20x20/2C3740/2C3740.png) |
+| Elevated Surface  | `#3A454D` | ![](https://placehold.co/20x20/3A454D/3A454D.png) |
+| Border            | `#4D5355` | ![](https://placehold.co/20x20/4D5355/4D5355.png) |
+| Text              | `#C0C0C0` | ![](https://placehold.co/20x20/C0C0C0/C0C0C0.png) |
+| Muted Text        | `#999999` | ![](https://placehold.co/20x20/999999/999999.png) |
+| Faint Text        | `#7A8280` | ![](https://placehold.co/20x20/7A8280/7A8280.png) |
+| Accent / Links    | `#949B79` | ![](https://placehold.co/20x20/949B79/949B79.png) |
+| Tags / Highlights | `#99926B` | ![](https://placehold.co/20x20/99926B/99926B.png) |
+
+---
+
 ## Alfred
 
 _Requires [Alfred](https://alfredapp.com)._

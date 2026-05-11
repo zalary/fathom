@@ -1,0 +1,312 @@
+/* Fathom — Obsidian Minimal Theme Color Scheme
+ * https://github.com/zalary/fathom
+ *
+ * Installation:
+ *   1. Install the Minimal theme in Obsidian (Settings > Appearance > Themes)
+ *   2. Copy this file into your vault's .obsidian/snippets/ folder
+ *   3. Enable it in Settings > Appearance > CSS snippets
+ *
+ * Palette:
+ *   bg_dark  #2C3740   darkest background
+ *   bg       #323D44   primary background
+ *   bg_mid   #3A454D   elevated surfaces
+ *   border   #4D5355   borders / separators
+ *   comment  #7A8280   faint / comments
+ *   muted    #999999   muted text
+ *   subtle   #AAAAAA   subtle text
+ *   fg       #C0C0C0   primary text
+ *   olive    #949B79   accent (links, interactive)
+ *   gold     #99926B   tags, highlights
+ *   sage     #88908E   success, types
+ */
+
+.theme-dark,
+.theme-dark.minimal-light {
+  /* ── Core background scale ─────────────────────────────── */
+  --color-base-00: #2C3740;
+  --color-base-05: #303B42;
+  --color-base-10: #323D44;
+  --color-base-20: #3A454D;
+  --color-base-25: #404D55;
+  --color-base-30: #4D5355;
+  --color-base-35: #5A6268;
+  --color-base-40: #7A8280;
+  --color-base-50: #888F8D;
+  --color-base-60: #999999;
+  --color-base-70: #AAAAAA;
+  --color-base-100: #C0C0C0;
+
+  /* ── Accent ─────────────────────────────────────────────── */
+  --accent-h: 72;
+  --accent-s: 13%;
+  --accent-l: 54%;
+  --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
+  --color-accent: #949B79;
+  --color-accent-1: #949B79;
+  --color-accent-2: #99926B;
+
+  /* ── Backgrounds ────────────────────────────────────────── */
+  --background-primary:             #323D44;
+  --background-primary-alt:         #2C3740;
+  --background-secondary:           #2C3740;
+  --background-secondary-alt:       #323D44;
+  --background-modifier-hover:      rgba(77, 83, 85, 0.35);
+  --background-modifier-active-hover: rgba(77, 83, 85, 0.55);
+  --background-modifier-border:     #4D5355;
+  --background-modifier-border-hover: #5A6268;
+  --background-modifier-border-focus: #949B79;
+  --background-modifier-error:      rgba(148, 155, 121, 0.2);
+  --background-modifier-error-rgb:  148, 155, 121;
+  --background-modifier-success:    rgba(136, 144, 142, 0.2);
+  --background-modifier-success-rgb: 136, 144, 142;
+  --background-modifier-message:    rgba(44, 55, 64, 0.9);
+
+  /* ── Text ───────────────────────────────────────────────── */
+  --text-normal:          #C0C0C0;
+  --text-muted:           #999999;
+  --text-faint:           #7A8280;
+  --text-on-accent:       #2C3740;
+  --text-on-accent-muted: #323D44;
+  --text-accent:          #949B79;
+  --text-accent-hover:    #A8AE8A;
+  --text-selection:       rgba(77, 83, 85, 0.5);
+  --text-highlight-bg:    rgba(153, 146, 107, 0.25);
+  --text-highlight-bg-active: rgba(153, 146, 107, 0.45);
+  --text-error:           #949B79;
+  --text-warning:         #99926B;
+  --text-success:         #88908E;
+
+  /* ── Interactive ────────────────────────────────────────── */
+  --interactive-normal:       #3A454D;
+  --interactive-hover:        #4D5355;
+  --interactive-accent:       #949B79;
+  --interactive-accent-hsl:   var(--accent-h), var(--accent-s), var(--accent-l);
+  --interactive-accent-hover: #A8AE8A;
+
+  /* ── Scrollbars ─────────────────────────────────────────── */
+  --scrollbar-bg:           transparent;
+  --scrollbar-thumb-bg:     rgba(77, 83, 85, 0.5);
+  --scrollbar-active-thumb-bg: rgba(122, 130, 128, 0.8);
+
+  /* ── Minimal theme base variables ───────────────────────── */
+  --base:    #323D44;
+  --base-d:  #2C3740;
+  --base-bd: #4D5355;
+  --base-l:  #3A454D;
+  --base-sl: #404D55;
+  --base-2:  #2C3740;
+  --base-2l: #323D44;
+  --base-3:  #3A454D;
+  --base-4:  #4D5355;
+  --tx:      #C0C0C0;
+  --tx-2:    #AAAAAA;
+  --tx-3:    #999999;
+  --ax:      #949B79;
+  --hi:      rgba(153, 146, 107, 0.25);
+  --hl:      rgba(77, 83, 85, 0.4);
+
+  /* ── Headings ───────────────────────────────────────────── */
+  --h1-color: #C0C0C0;
+  --h2-color: #AAAAAA;
+  --h3-color: #999999;
+  --h4-color: #999999;
+  --h5-color: #7A8280;
+  --h6-color: #7A8280;
+
+  /* ── Links ──────────────────────────────────────────────── */
+  --link-color:           #949B79;
+  --link-color-hover:     #A8AE8A;
+  --link-unresolved-color: #7A8280;
+  --link-external-color:  #99926B;
+  --link-external-color-hover: #A8A07C;
+
+  /* ── Tags ───────────────────────────────────────────────── */
+  --tag-color:            #C0C0C0;
+  --tag-background:       rgba(153, 146, 107, 0.2);
+  --tag-background-hover: rgba(153, 146, 107, 0.35);
+  --tag-border-color:     #99926B;
+  --tag-border-width:     1px;
+  --tag-padding-x:        0.5em;
+  --tag-padding-y:        0.15em;
+  --tag-radius:           3px;
+
+  /* ── Code ───────────────────────────────────────────────── */
+  --code-normal:          #C0C0C0;
+  --code-comment:         #7A8280;
+  --code-function:        #C0C0C0;
+  --code-important:       #949B79;
+  --code-keyword:         #AAAAAA;
+  --code-operator:        #C0C0C0;
+  --code-property:        #C0C0C0;
+  --code-punctuation:     #C0C0C0;
+  --code-string:          #99926B;
+  --code-tag:             #AAAAAA;
+  --code-value:           #949B79;
+  --code-background:      #2C3740;
+  --code-border:          1px solid #4D5355;
+  --code-radius:          4px;
+  --code-size:            0.9em;
+  --code-white-space:     pre-wrap;
+
+  /* ── Inline code ────────────────────────────────────────── */
+  --inline-title-color:        #C0C0C0;
+
+  /* ── Blockquotes ────────────────────────────────────────── */
+  --blockquote-border-color:   #949B79;
+  --blockquote-border-thickness: 2px;
+  --blockquote-color:          #AAAAAA;
+  --blockquote-background-color: rgba(77, 83, 85, 0.15);
+  --blockquote-font-style:     normal;
+
+  /* ── Tables ─────────────────────────────────────────────── */
+  --table-background:          transparent;
+  --table-border-color:        #4D5355;
+  --table-header-background:   #2C3740;
+  --table-header-background-hover: #3A454D;
+  --table-row-background-hover: rgba(77, 83, 85, 0.2);
+  --table-row-alt-background:  rgba(44, 55, 64, 0.3);
+  --table-column-alt-background: transparent;
+
+  /* ── Callouts ───────────────────────────────────────────── */
+  --callout-default:     var(--color-accent);
+  --callout-info:        88, 144, 142;
+  --callout-todo:        153, 146, 107;
+  --callout-warning:     153, 146, 107;
+  --callout-error:       148, 155, 121;
+  --callout-success:     136, 144, 142;
+  --callout-question:    148, 155, 121;
+  --callout-bug:         148, 155, 121;
+  --callout-example:     153, 153, 153;
+  --callout-quote:       122, 130, 128;
+
+  /* ── Graph ──────────────────────────────────────────────── */
+  --graph-node:          #7A8280;
+  --graph-node-focused:  #C0C0C0;
+  --graph-node-tag:      #99926B;
+  --graph-node-attachment: #88908E;
+  --graph-node-unresolved: #4D5355;
+  --graph-line:          #4D5355;
+  --graph-line-focused:  #7A8280;
+
+  /* ── Ribbon / Sidebar ───────────────────────────────────── */
+  --ribbon-background:   #2C3740;
+  --ribbon-background-collapsed: #2C3740;
+  --nav-item-color:      #AAAAAA;
+  --nav-item-color-hover: #C0C0C0;
+  --nav-item-color-active: #C0C0C0;
+  --nav-item-color-selected: #C0C0C0;
+  --nav-item-background-hover: rgba(77, 83, 85, 0.35);
+  --nav-item-background-active: rgba(77, 83, 85, 0.55);
+  --nav-item-background-selected: rgba(148, 155, 121, 0.15);
+  --nav-collapse-icon-color: #7A8280;
+  --nav-indentation-guide-color: #4D5355;
+
+  /* ── Title bar ──────────────────────────────────────────── */
+  --titlebar-background:         #2C3740;
+  --titlebar-background-focused: #2C3740;
+  --titlebar-border-width:       0px;
+  --titlebar-text-color:         #AAAAAA;
+  --titlebar-text-color-focused: #C0C0C0;
+  --titlebar-text-font:          inherit;
+
+  /* ── Tabs ───────────────────────────────────────────────── */
+  --tab-background-active:    #323D44;
+  --tab-text-color:           #AAAAAA;
+  --tab-text-color-focused:   #C0C0C0;
+  --tab-text-color-active:    #C0C0C0;
+  --tab-font-size:            var(--font-ui-small);
+  --tab-font-weight:          inherit;
+  --tab-divider-color:        #4D5355;
+  --tab-outline-color:        #4D5355;
+  --tab-radius:               4px;
+  --tab-radius-active:        4px;
+  --tab-container-background: #2C3740;
+
+  /* ── Status bar ─────────────────────────────────────────── */
+  --status-bar-background:    #2C3740;
+  --status-bar-border-color:  #4D5355;
+  --status-bar-border-width:  1px 0 0 0;
+  --status-bar-text-color:    #7A8280;
+  --status-bar-font-size:     var(--font-ui-smaller);
+
+  /* ── Modal / prompt ─────────────────────────────────────── */
+  --modal-background:         #2C3740;
+  --modal-border-width:       1px;
+  --modal-border-color:       #4D5355;
+  --prompt-border-width:      1px;
+  --prompt-border-color:      #4D5355;
+
+  /* ── Input ──────────────────────────────────────────────── */
+  --input-background:         #3A454D;
+  --input-border-color:       #4D5355;
+  --input-border-color-hover: #7A8280;
+  --input-border-color-focus: #949B79;
+  --input-shadow:             none;
+  --input-shadow-hover:       none;
+  --input-shadow-focus:       0 0 0 2px rgba(148, 155, 121, 0.25);
+
+  /* ── Checkbox ───────────────────────────────────────────── */
+  --checkbox-color:           #949B79;
+  --checkbox-color-hover:     #A8AE8A;
+  --checkbox-border-color:    #7A8280;
+  --checkbox-border-color-hover: #949B79;
+  --checklist-done-color:     #7A8280;
+  --checklist-done-decoration: line-through;
+
+  /* ── Slider ─────────────────────────────────────────────── */
+  --slider-track-background:  #4D5355;
+  --slider-thumb-border-color: #949B79;
+  --slider-thumb-bg:          #949B79;
+
+  /* ── Toggle ─────────────────────────────────────────────── */
+  --toggle-thumb-color:       #C0C0C0;
+  --toggle-border-color:      #4D5355;
+  --toggle-border-color-hover: #7A8280;
+
+  /* ── Indentation guides ─────────────────────────────────── */
+  --indentation-guide-color:          rgba(77, 83, 85, 0.5);
+  --indentation-guide-color-active:   rgba(148, 155, 121, 0.5);
+  --indentation-guide-editing-indent: 27px;
+}
+
+/* ── Syntax highlighting for code blocks ──────────────────── */
+.theme-dark .cm-s-obsidian span.cm-comment      { color: #7A8280; font-style: italic; }
+.theme-dark .cm-s-obsidian span.cm-string       { color: #99926B; }
+.theme-dark .cm-s-obsidian span.cm-string-2     { color: #99926B; }
+.theme-dark .cm-s-obsidian span.cm-number       { color: #949B79; }
+.theme-dark .cm-s-obsidian span.cm-atom         { color: #949B79; }
+.theme-dark .cm-s-obsidian span.cm-keyword      { color: #AAAAAA; }
+.theme-dark .cm-s-obsidian span.cm-operator     { color: #C0C0C0; }
+.theme-dark .cm-s-obsidian span.cm-variable     { color: #C0C0C0; }
+.theme-dark .cm-s-obsidian span.cm-variable-2   { color: #C0C0C0; }
+.theme-dark .cm-s-obsidian span.cm-def          { color: #C0C0C0; }
+.theme-dark .cm-s-obsidian span.cm-property     { color: #C0C0C0; }
+.theme-dark .cm-s-obsidian span.cm-type         { color: #88908E; }
+.theme-dark .cm-s-obsidian span.cm-meta         { color: #999999; }
+.theme-dark .cm-s-obsidian span.cm-tag          { color: #AAAAAA; }
+.theme-dark .cm-s-obsidian span.cm-attribute    { color: #99926B; }
+.theme-dark .cm-s-obsidian span.cm-builtin      { color: #AAAAAA; }
+.theme-dark .cm-s-obsidian span.cm-qualifier    { color: #88908E; }
+.theme-dark .cm-s-obsidian span.cm-error        { color: #949B79; }
+
+/* ── Markdown syntax chrome (muted in edit mode) ──────────── */
+.theme-dark .cm-formatting               { color: #4D5355; }
+.theme-dark .cm-formatting-header       { color: #7A8280; }
+.theme-dark .cm-formatting-link         { color: #7A8280; }
+.theme-dark .cm-formatting-link-string  { color: #99926B; }
+.theme-dark .cm-hmd-internal-link       { color: #949B79; }
+.theme-dark .cm-url                     { color: #99926B; }
+
+/* ── Heading weights ────────────────────────────────────────── */
+.theme-dark .cm-header-1 { font-size: 1.5em;  color: #C0C0C0; }
+.theme-dark .cm-header-2 { font-size: 1.3em;  color: #AAAAAA; }
+.theme-dark .cm-header-3 { font-size: 1.15em; color: #999999; }
+.theme-dark .cm-header-4 { font-size: 1.05em; color: #999999; }
+.theme-dark .cm-header-5 { font-size: 1em;    color: #7A8280; }
+.theme-dark .cm-header-6 { font-size: 1em;    color: #7A8280; }
+
+/* ── Scrollbar ──────────────────────────────────────────────── */
+.theme-dark ::-webkit-scrollbar              { width: 6px; }
+.theme-dark ::-webkit-scrollbar-track        { background: transparent; }
+.theme-dark ::-webkit-scrollbar-thumb        { background: rgba(77, 83, 85, 0.6); border-radius: 3px; }
+.theme-dark ::-webkit-scrollbar-thumb:hover  { background: rgba(122, 130, 128, 0.9); }
